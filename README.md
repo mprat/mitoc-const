@@ -1,5 +1,5 @@
 [![Build Status](https://api.travis-ci.com/DavidCain/mitoc-const.svg?branch=master)](https://travis-ci.com/DavidCain/mitoc-const/)
-
+[![PyPI version](https://img.shields.io/pypi/v/mitoc-const.svg)](https://pypi.python.org/pypi/mitoc-const)
 
 # MITOC Constants
 This is a set of constants for use across MIT Outing Club infrastructure.
