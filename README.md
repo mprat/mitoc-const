@@ -1,3 +1,6 @@
+[![Build Status](https://api.travis-ci.com/DavidCain/mitoc-const.svg?branch=master)](https://travis-ci.com/DavidCain/mitoc-const/)
+
+
 # MITOC Constants
 This is a set of constants for use across MIT Outing Club infrastructure.
 
