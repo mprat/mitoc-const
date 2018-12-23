@@ -22,11 +22,11 @@ Affiliation = namedtuple('Affiliation', ['CODE', 'VALUE', 'ANNUAL_DUES'])
 
 MIT_UNDERGRAD = Affiliation('MU', 'MIT undergrad', 15)
 MIT_GRAD_STUDENT = Affiliation('MG', 'MIT grad student', 15)
-NON_MIT_UNDERGRAD = Affiliation('NU', 'Non-MIT undergrad', 15)
-NON_MIT_GRAD_STUDENT = Affiliation('NG', 'Non-MIT grad student', 15)
-MIT_ALUM = Affiliation('ML', 'MIT alum', 25)
-MIT_AFFILIATE = Affiliation('MA', 'MIT affiliate', 20)
-NON_AFFILIATE = Affiliation('NA', 'Non-affiliate', 25)
+MIT_AFFILIATE = Affiliation('MA', 'MIT affiliate', 30)
+NON_MIT_UNDERGRAD = Affiliation('NU', 'Non-MIT undergrad', 40)
+NON_MIT_GRAD_STUDENT = Affiliation('NG', 'Non-MIT grad student', 40)
+MIT_ALUM = Affiliation('ML', 'MIT alum', 40)
+NON_AFFILIATE = Affiliation('NA', 'Non-affiliate', 40)
 
 # All affiliations _except_ for the deprecated student affiliation
 ALL = [
@@ -40,4 +40,5 @@ ALL = [
 ]
 
 # This status reflects a student where we don't know their affiliation!
-DEPRECATED_STUDENT = Affiliation('S', 'Student', 15)
+# (MIT students are $15, other students are $40)
+DEPRECATED_STUDENT = Affiliation('S', 'Student', 40)
